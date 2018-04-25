@@ -51,7 +51,7 @@ public class Prog {
 			System.out.println(p.getVorname() + " " + p.getNachname());
 			if(p instanceof Student) {
 				Student s = (Student) p;
-				System.out.println("Im Jahrgang"  + s.getGrade());
+				System.out.println("Im Jahrgang "  + s.getGrade());
 			}
 		}
 			
